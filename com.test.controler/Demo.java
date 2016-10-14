@@ -50,12 +50,12 @@ public class Demo {
         /*
         ÓÃentrySet()µü´ú
         */
-        Iterator it = map.entrySet().iterator();
+        Iterator it1 = map.entrySet().iterator();
         System.out.println(map.entrySet().size());
         String key;
         String value;
-        while(it.hasNext()){
-            Map.Entry entry = (Map.Entry)it.next();
+        while(it1.hasNext()){
+            Map.Entry entry = (Map.Entry)it1.next();
             key = entry.getKey().toString();
             value = entry.getValue().toString();
             System.out.println(key + "====" + value);
